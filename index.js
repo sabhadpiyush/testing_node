@@ -14,6 +14,10 @@ app.get("/about", (req, res) => {
   res.send("<h1>About Page</h1>");
 });
 
+app.get("/services", (req, res) => {
+  res.send("<h1>Services Page</h1>");
+});
+
 app.get("/contact", (req, res) => {
   res.send("<h1>Contact Page</h1>");
 });
